@@ -1,0 +1,9 @@
+.Devider {
+    border: 0; /* Removes the default border */
+    border-top: 2px solid white; /* Creates a white line */
+    margin: 20px auto; /* Adds spacing above and below the divider */
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+

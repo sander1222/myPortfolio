@@ -1,0 +1,21 @@
+.content {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle box effect */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+.contact p {
+    margin: 5px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+}

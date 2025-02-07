@@ -1,0 +1,35 @@
+.pp {
+  width: 150px;
+  height: 150px; /* Equal width and height for a perfect circle */
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.h {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+div {
+
+    margin: 0 auto; /* Optional: Centers the element itself if needed */
+    max-width: 600px; /* Optional: Limit the width of the paragraph to keep it neat */
+  
+  
+}
+
+.InfoText {
+  color: white;
+  padding-top: 20px;
+  text-align: center; /* Centers the text horizontally */
+  margin: 0 auto; /* Optional: Centers the element itself if needed */
+  max-width: 300px; /* Optional: Limit the width of the paragraph to keep it neat */
+  padding-bottom: 5%;
+}
+
+.name {
+  color: white;
+}
