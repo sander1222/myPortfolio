@@ -1,8 +1,15 @@
-.pp {
+.profilePicture {
   width: 150px;
   height: 150px; /* Equal width and height for a perfect circle */
   border-radius: 50%; /* Makes the image round */
+  border: rgba(255, 255, 255, 0.578) 3px solid;
+  box-shadow: white 0px 0px 15px;
   object-fit: cover; /* Ensures the image covers the area without distortion */
+  transition: 0.2s;
+}
+
+.profilePicture:hover {
+  box-shadow: white 0px 0px 25px;
 }
 
 .h {
@@ -13,12 +20,9 @@
   padding-left: 20px;
 }
 
-div {
-
-    margin: 0 auto; /* Optional: Centers the element itself if needed */
-    max-width: 600px; /* Optional: Limit the width of the paragraph to keep it neat */
-  
-  
+.container {
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 .InfoText {

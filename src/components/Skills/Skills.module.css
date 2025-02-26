@@ -1,43 +1,14 @@
-.blenderImg {
-  width: 60px;
-  height: 60px;
-  padding-left: 25%;
-}
-
 .firstRow {
   display: flex;
-  gap: 10px;
-  width: 100%;
+  justify-content: center;
 }
 
 .secondRow {
   display: flex;
-  gap: 10px;
-  width: 100%;
-  padding-top: 2%;
-  padding-bottom: 5%;
-}
-.htmlCssJs {
-  height: 70px;
+  justify-content: center;
 }
 
-.Csharp {
-  width: 50px;
-  height: 60px;
-  padding-left: 27%;
-}
-
-.python {
-  width: 80px;
-  height: 60px;
-}
-
-.figma {
-  width: 40px;
-  height: 50px;
-}
-
-.react {
-  width: 60px;
-  height: 60px;
+.logo {
+  height: 100px;
+  width: 100px;
 }

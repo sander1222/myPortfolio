@@ -1,12 +1,11 @@
-import styles from "./ProfileSection.module.css" 
+import styles from "./ProfileSection.module.css";
 
 export const ProfileSection = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.h}>
-      <img src="meg.jpg" alt="" className={styles.pp} />
+        <img src="meg.jpg" alt="" className={styles.profilePicture} />
         <h1 className={styles.name}>Sander Knutshaug</h1>
-        
       </div>
 
       <p className={styles.InfoText}>
